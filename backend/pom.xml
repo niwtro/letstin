@@ -11,16 +11,16 @@
 
     <artifactId>backend</artifactId>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
-    <packaging>jar</packaging>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>nl.martijndwars</groupId>
+            <artifactId>web-push</artifactId>
+            <version>3.0.1</version>
         </dependency>
     </dependencies>
 
